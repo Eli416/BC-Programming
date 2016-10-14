@@ -8,11 +8,11 @@
 class PlayerList {
     public:
         PlayerList(void);
-        int getValidNumber(int,int,char); //done
-        int getMemberJersey(int);        //done
-        void printAboveRating(void);      //done
-        void printRoster(void);          //done
-        void addPlayer(void);        //done
+        int getValidNumber(int,int,char);
+        int getMemberJersey(int);
+        void printAboveRating(void);
+        void printRoster(void);
+        void addPlayer(void);
         void addMultiPlayer(void);
         void removePlayer(void);
         void updatePlayer(void);
