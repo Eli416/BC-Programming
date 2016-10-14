@@ -14,7 +14,7 @@
 */
 int PlayerList::getValidNumber(int min, int max, char option){
     int retInt = -1;
-    int hasRun = 0;
+    char hasRun = 0;
     do{
         if(hasRun){
             std::cin.clear();
