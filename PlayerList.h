@@ -1,3 +1,12 @@
+/*
+Author:     Halpin, Sean
+Group:      Hernandez, Andrea; Hernandez, Antonio; 
+            Hernandez, Enrique;
+Assignment: Programming Assignment 2
+Course:     COMP B12
+Instructor: Richard Miles
+Date Sub.:  2016/10/15
+*/
 #include <iostream>
 #include <vector>
 #include <limits>
@@ -6,21 +15,24 @@
 #define PlayerList_H
 
 class PlayerList {
-    public:
-        PlayerList(void);
-        int getValidNumber(int,int,char);
-        int getMemberJersey(int);
-        void printAboveRating(void);
-        void printRoster(void);
-        void addPlayer(void);
-        void addMultiPlayer(void);
-        void removePlayer(void);
-        void updatePlayer(void);
-        void runMenu(void);
-        void printMenu(void);
+  public:
+    PlayerList(void);
+    int GetValidNumber(int,int,char);
+    int GetMemberJersey(int);
+    int IsTeamFull();
+    void PrintAboveRating(void);
+    void PrintRoster(void);
+    void InsertSortedJersey(int, int, int);
+    void AddPlayer(void);
+    void AddMultiPlayer(void);
+    void RemovePlayer(void);
+    void UpdatePlayer(void);
+    void RunMenu(void);
+    void PrintMenu(void);
     
-    private:
-        std::vector<int> jerseyNumbers;
-        std::vector<int> ratingValues;
+  private:
+    std::vector<int> jersey_numbers;
+    std::vector<int> rating_values;
+    int num_players;
 };
 #endif

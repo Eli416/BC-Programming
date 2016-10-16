@@ -5,15 +5,13 @@ Group:      Hernandez, Andrea; Hernandez, Antonio;
 Assignment: Programming Assignment 2
 Course:     COMP B12
 Instructor: Richard Miles
-Date Sub.:  2016/10/(Day Submitted)
+Date Sub.:  2016/10/15
+compiled with: g++ -g -Wall main.cpp PlayerList.cpp -o AssignmentTwo.exe
 */
 
 #include "PlayerList.h"
-using namespace std;
-
-
 int main(){
-    PlayerList myPlayers;
-    myPlayers.runMenu();
+    PlayerList my_players;
+    my_players.RunMenu();
     return 0;
 }
