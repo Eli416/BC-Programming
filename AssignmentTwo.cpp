@@ -6,6 +6,7 @@ Assignment: Programming Assignment 2
 Course:     COMP B12
 Instructor: Richard Miles
 Date Sub.:  2016/10/15
+Compiled with: g++ -Wall -g AssignmentTwo.cpp -o AssignmentTwo.exe
 */
 
 #include <iostream>
