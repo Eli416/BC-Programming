@@ -1,1 +1,0 @@
-sudo g++ -Wall -g calcVolts.cpp
