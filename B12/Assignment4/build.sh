@@ -1,1 +1,0 @@
-g++ -Wall -g main.cpp Playlist.cpp
