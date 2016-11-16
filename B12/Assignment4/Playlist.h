@@ -1,3 +1,10 @@
+/**
+ *    Name: Sean Halpin
+ *    Class: COMP B12 8AM MW
+ *    Created On: 2016/11/11
+ *    Instructor: RIchard Miles
+ *    Assignment: Linked Playlist #(4 + 5)
+ */
 #ifndef PLAYLIST_H
 #define PLAYLIST_H
 
