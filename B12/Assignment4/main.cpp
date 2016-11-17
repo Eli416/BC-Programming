@@ -47,8 +47,8 @@ void AddSong(LinkedPlaylist* list) {
         list->tail->InsertAfter(added);
     } else {
         list->head = added;
-        list->tail = added;
     }
+    list->tail = added;
 }
 
 void RemoveSong(LinkedPlaylist* list) {
