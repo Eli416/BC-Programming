@@ -233,20 +233,13 @@ void RunMenu(LinkedPlaylist* list) {
         }
         cin >> selection;
         cin.ignore(numeric_limits<streamsize>::max(), '\n');
-        switch (selection) {
-            case 'A':
+        switch (tolower(selection)) {
             case 'a': AddSong(list); previous = 0; break;
-            case 'D':
             case 'd': RemoveSong(list); previous = 0; break;
-            case 'C':
             case 'c': ChangePosition(list); previous = 0; break;
-            case 'S':
             case 's': OutputBy(list); previous = 0; break;
-            case 'T':
             case 't': OutputTotalTime(list); previous = 0; break;
-            case 'O':
             case 'o': OutputPlaylist(list); previous = 0; break;
-            case 'Q':
             case 'q': cout << "Thanks for using B12 Player!" << endl; break;
             default: 
                 previous = selection;
